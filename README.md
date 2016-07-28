@@ -1,7 +1,7 @@
 # OOPM
 Welcome to our personal project 
 ====================================
-The Main Purpose of this project so that we learn new software and get familiar about how open source works and to keep an up-to-date update of the programs taught
+The Main Purpose of this project is to learn new software and get familiar about how open source works and to keep an up-to-date update of the programs practiced 
 
 
 This will contain all the programs which we practice in the lab for our practical examnination
