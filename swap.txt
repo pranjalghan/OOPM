@@ -2,7 +2,7 @@ public class swap
 {
  public static void main(String[] args)
  {
-  int x=123;
+  int x=123;   
   int y=223;
   System.out.print("The Numbers before swapping are: ");
   System.out.print("First value is "+x);
