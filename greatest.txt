@@ -21,7 +21,7 @@ public class greatest
   {
    System.out.println("The greatest number is: " +c);
   }
-}
+ }
 }
 
 
