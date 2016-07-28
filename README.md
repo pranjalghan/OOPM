@@ -15,3 +15,10 @@ How to take benfit of this project :
     4-If you feel the code is working and the chages you made are proper then commit to your own personal branch adn subit the pull request so that the code can be updated in the main branch
 For basic git fetures and a small how to visit ;
 https://git-scm.com/docs/gittutorial
+
+
+Rules for committing a new file
+
+    1-Upload the text file of the code 
+    2-Check whether the code is working properly as per the required output
+    3-Write the output of the program at the bottom of the file 
