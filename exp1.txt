@@ -1,0 +1,29 @@
+public class swap
+{
+ public static void main(String[] args)
+ {
+  int x=123;
+  int y=223;
+  System.out.print("The Numbers before swapping are: ");
+  System.out.print("First value is "+x);
+  System.out.println(" ,Second value is "+y);
+  swap(x,y);
+ }
+ public static void swap(int x,int y)
+ {
+  int temp;
+  temp=x;
+  x=y;
+  y=temp;
+  System.out.print("The Numbers after swapping are: ");
+  System.out.print("First value is "+x);
+  System.out.println(" ,Second value is "+y);
+  }
+}
+
+
+
+
+#OUTPUT
+The Numbers before Swapping are: First value is 123 ,Second Value is 223
+The Numbers after Swapping are: First value is 223 ,Second Value is 123
