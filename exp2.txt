@@ -1,0 +1,34 @@
+public class great
+{ 
+ public static void main(String[] args)
+ {
+  int a,b,c;
+  a=Integer.parseInt(args[0]);
+  b=Integer.parseInt(args[1]);
+  c=Integer.parseInt(args[2]);
+  System.out.println("The First number is: " +a);
+  System.out.println("The Second number is: " +b);
+  System.out.println("The Third number is: " +c);
+  if((a>b)&&(a>c))
+  {
+   System.out.println("The greatest number is: " +a);
+  }
+  else if((b>a)&&(b>c))
+  {
+   System.out.println("The greatest number is: " +b);
+  }
+  else
+  {
+   System.out.println("The greatest number is: " +c);
+  }
+}
+}
+
+
+
+#Numbers entered are 10 11 12
+#OUTPUT
+The First number is 10
+The Second number is 11
+The Third number is 12
+The Greatest number is 12
