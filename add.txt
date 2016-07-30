@@ -1,0 +1,14 @@
+public class add
+{
+public static void main(string args[])
+{
+int x,y,c;
+x=integer.parseint(args[0]);
+y=integer.parseint(args[1]);
+system.out.println("add two numbers");
+system.out.println("the 1st no is"+x);
+system.out.println("the 2nd no. is"+y);
+c=x+y;
+system.out.println("the value of c"+c);
+}
+}
