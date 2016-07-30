@@ -5,8 +5,8 @@ public class calculator
         int x,y;
         x=Integer.parseInt(args[0]);
         y=Integer.parseInt(args[1]);
-        system.out.println("enter the 1st number"+x);
-        system.out.println("enter the 2nd number"+y);
+        System.out.println("enter the 1st number:" +x);
+        System.out.println("enter the 2nd number:" +y);
         add(x,y);
         sub(x,y);
         multiply(x,y);
@@ -16,24 +16,24 @@ public class calculator
     {
         int c;
         c=x+y;
-        system.out.println("the added no is c",+c);
+        System.out.println("the added no is :" +c);
     }
     public static void sub(int x,int y)
     {
-         int q;
-        q=x+y;
-        system.out.println("the added no is q",+q);
+        int q;
+        q=x-y;
+        System.out.println("the sub no is :" +q);
     }
     public static void multiply(int x,int y)
     {
-         int w;
-        w=x+y;
-        system.out.println("the added no is w",+w);
+        int w;
+        w=x*y;
+        System.out.println("the multiplied no is :" +w);
     }
     public static void divide(int x,int y)
     {
-         int m;
-        m=x+y;
-        system.out.println("the added no is m",+m);
+        int m;
+        m=x/y;
+        System.out.println("the divided no is :" +m);
     }
 }
