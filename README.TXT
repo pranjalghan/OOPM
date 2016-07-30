@@ -12,7 +12,6 @@ public class calculator
         multiply(x,y);
         divide(x,y);
     }
-}
     public static void add(int x,int y)
     {
         int c;
@@ -37,3 +36,4 @@ public class calculator
         m=x+y;
         system.out.println("the added no is m",+m);
     }
+}
