@@ -22,18 +22,28 @@ public class calculator
     {
         int q;
         q=x-y;
-        System.out.println("the sub no is :" +q);
+        System.out.println("The sub no is :" +q);
     }
     public static void multiply(int x,int y)
     {
         int w;
         w=x*y;
-        System.out.println("the multiplied no is :" +w);
+        System.out.println("The multiplied no is :" +w);
     }
     public static void divide(int x,int y)
     {
         int m;
         m=x/y;
-        System.out.println("the divided no is :" +m);
+        System.out.println("The divided no is :" +m);
     }
 }
+
+
+//OUTPUT//
+//The 1st number:20
+//The 2nd number:30
+//The added no is :50
+//The sub no is :-10
+//The multiplied no is :600
+//The divided no is :0
+
