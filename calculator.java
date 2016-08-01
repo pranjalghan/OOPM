@@ -5,8 +5,8 @@ public class calculator
         int x,y;
         x=Integer.parseInt(args[0]);
         y=Integer.parseInt(args[1]);
-        System.out.println("enter the 1st number:" +x);
-        System.out.println("enter the 2nd number:" +y);
+        System.out.println("The 1st number:" +x);
+        System.out.println("The 2nd number:" +y);
         add(x,y);
         sub(x,y);
         multiply(x,y);
