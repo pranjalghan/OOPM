@@ -16,6 +16,9 @@ public class min
    }
 }
 
+//output
+//Minimum number is 5
+
 
 
 //WORKING
