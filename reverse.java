@@ -1,5 +1,5 @@
 import java.util.*;
-class palindrome
+class reverse
 {
 public static void main(String args[])
 {
@@ -9,19 +9,12 @@ System.out.println("enter the no.");
 n=sc.nextInt();
 int x=n;
 int r=0;
-while(n>0)
+while(x>0)
 {
-d=n%10;
+d=x%10;
 r=r*10+d;
-n=n/10;
-}
-if(x==r)
-{
-System.out.println("the no. is palindrome");
-}
-else
-{
-System.out.println("the no. is not palindrome");
-}
+x=x/10;
+}  
+System.out.println("the REVERSE NO IS="+r);
 }
 }
